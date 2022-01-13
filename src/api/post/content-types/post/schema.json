@@ -37,7 +37,8 @@
         "video",
         "landscape",
         "portrait",
-        "food"
+        "food",
+        "travel"
       ]
     },
     "photo": {
@@ -46,12 +47,12 @@
       "component": "post.photoplus"
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
