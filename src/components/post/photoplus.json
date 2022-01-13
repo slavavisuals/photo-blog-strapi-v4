@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_post_photopluses",
+  "info": {
+    "displayName": "photoplus",
+    "icon": "chalkboard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
